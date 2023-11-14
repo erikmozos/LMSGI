@@ -1,0 +1,42 @@
+.taula{
+    border: 1px solid black;
+}
+.taula td{
+    border: 1px solid black;
+}
+.teal{
+    color: teal;
+}
+.orange{
+    color: orange;
+}
+.blue{
+    color: blue;
+}
+.red{
+    color: red;
+}
+.purple{
+    color: purple;
+}
+.olive{
+    color: olive;
+}
+.brown{
+    color: brown;
+}
+.green{
+    color: green;
+}
+.col1{
+    background-color: #FEF079;
+}
+.col2{
+    background-color: #8AFD7A;  
+}
+.col3{
+    background-color: #7DFFFA;
+}
+.col4{
+    background-color: #ED7BFE;
+}

@@ -1,0 +1,33 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color: #CD4645;
+}
+
+.primer-parrafo{
+    color: #0065AD;
+
+}
+
+.primer-parrafo span{
+    background-color: #FFFFCC;
+}
+
+.div-segundoytercer-parrafo{
+    color: #555555;
+}
+.segundo-parrafo span.remarcado{
+    color: #ACD200;
+    background-color: #000000;
+    font-style: italic;
+}
+
+.segundo-parrafo span.remarcado + span{
+    color: #555555;
+    font-weight: bold;
+}
+
+.tercer-parrafo span{
+    font-style: italic;
+}

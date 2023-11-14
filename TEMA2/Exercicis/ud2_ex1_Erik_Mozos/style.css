@@ -1,0 +1,55 @@
+body {
+    color: #004466;
+    background-color: #D2E4C4;
+    font-family: Georgia, 'Times New Roman', Times,
+    serif;
+    font-size: 16px;
+}
+h1, h2, h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    color: #3c3c3c;
+    font-size: 32px;
+}
+h2{
+    color: #9A275A;
+    font-size: 20px;
+}
+h3{
+    color: #9A275A;
+    font-size: 20px;
+}
+ul{
+    color: #D24B88;
+}
+.remarcar{
+    color: #fff;
+    background-color: #000;
+}
+abbr{
+    color: #fff;
+    background-color: #000;
+}
+.negrita{
+    font-weight: bold;
+    color: #000;
+}
+.cursiva{
+    font-style: italic;
+}
+a{
+    color: #3c3c3c;
+}
+a:hover{
+    font-weight: bold;
+}
+.footer-text{
+    color: #3c3c3c;
+    font-weight: bold;
+}
+hr{
+    background-color: #004466;
+    height: 3px;
+    border-radius: 5px;
+}
