@@ -32,8 +32,8 @@ a:focus{
 }
 
 a:active{
-    background-color: #ff8000;
     text-decoration: none;
+    background-color: #ff8000;
 }
 
 
