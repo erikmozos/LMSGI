@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UD1_ex8</title>
+    <style>
+        .red{
+        color: #BF0000;
+        }
+        </style>
+</head>
+<body>
+    <h1>Formulari de registre -- La meva web</h1>
+    <form action="" method="get">
+            <label for="name">Nom <span class="red">*</span>
+            <input type="text" required name="nom" id="" autocomplete="off" maxlength="30" minlength="2">
+            </label> <br><br>
+            <label for="primercongnom">Primer Cognmom <span class="red">*</span>
+                <input type="text" required name="primercongnom" id="" maxlength="50">
+            </label> <br><br>
+            <label for="primercongnom">Segon Cognmom:
+                <input type="text" name="segoncognom" id="" maxlength="50">
+            </label><br><br>
+            <label for="genere">Gènere: <span class="red">*</span>
+                    <input type="radio" required name="genero" id="" value="1">Masculí
+                    <input type="radio" required name="genero" id="" value="2">Femení
+                    <input type="radio" required name="genero" id="" value="3">No Binari                
+            </label><br><br>
+            <label for="email">Email: <span class="red">*</span>
+                <input type="email" required maxlength="100">
+            </label><br><br>
+            <p>Descripció:</p>
+                <textarea maxlength="300" cols="30px" rows="10px" placeholder="Entra una descripció amb un màxim de 300 caràcters..."></textarea><br><br>
+                <hr>
+                <h2>Consentiment</h2>
+                <input type="checkbox" name="cons" checked>Vull rebre informació amb les darreres novetat i ofertes personalitzades. <br>
+                <input type="checkbox" name="cons2" required>Declar haver llegit i acceptar les <a href="#generals">condicions generlas </a> de la aplicació i la normativa sobre protecció de dades persinal.<span class="red">*</span><br><br>
+            
+            <input type="submit">
+    </form>
+
+
+    <br><br><br>
+    <br><br><br>
+    <br><br><br>
+    <br><br><br>
+    <br><br><br>
+    <br><br><br>
+    <br><br><br>
+    <br><br><br>
+
+
+    <div id="generals">
+        <h2>Condicions generals</h2>
+            <p><b>Identificació del tractament:</b> Erik Mozos</p>
+            <p><b>Responsable del tractament:</b> PERI S.L.</p>
+            <p><b>Finalitat del tractament:</b> gestionar els diferents enviaments d'informació derivats del registre de l'usuari.</p>
+            <p><b>Legitimació:</b> consentiment de la persona interesada.</p>
+            <p><b>Persones destinatáries:</b> Les encarregades del tractament que proveeixen, per compte de l'empresa. Les dades no es comunicaran a altres categories de destinataris, excepte en els casos previstos per la llei.</p>
+            <p><b>Drets de les persones interessades:</b> solicitar l'accés, rectificació o supressió de les dades, i la limitació o oposició al tractament. Cal utilitzar els formularis ¡ el procediment disponibles.</p>
+  </div>
+</body>
+</html>

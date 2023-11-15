@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UD1.ex9</title>
+    <style>
+        .red{
+        color: #BF0000;
+        }
+        </style>
+</head>
+<body>
+    <h1><b>DADES DE LA PERSONA PARTICIPANT</b></h1>
+    <form action="" method="get">
+        <label for="name">Nom: <span class="red">*</span>
+            <input type="text" required name="nom" id="" autocomplete="off" maxlength="30" minlength="2">
+        </label> <br><br>
+        <label for="Cognom">Cognom: <span class="red">*</span>
+            <input type="text" required name="cognom" id="" autocomplete="off" maxlength="30" minlength="2">
+        </label> <br><br>    
+        <label for="DNI">DNI: <span class="red">*</span>
+            <input type="text" required name="dni" id="" autocomplete="off" minlength="9" maxlength="9">
+        </label> <br><br>
+        <label for="telefono">Telèfon: <span class="red">*</span>
+            <input type="tel" required name="tel" id="" autocomplete="off" maxlength="100">
+        </label> <br><br>
+        <label for="naixement">Data Naixament: <span class="red">*</span>
+            <input type="date" required name="date" id="" autocomplete="off">
+        </label> <br><br>
+        <label for="genere">Gènere: <span class="red">*</span>
+            <input type="radio" required name="genero" id="" value="1">Masculí
+            <input type="radio" required name="genero" id="" value="2">Femení
+            <input type="radio" required name="genero" id="" value="3">No Binari                
+        </label> <br><br>
+        <label for="poblacio">Adreça: <span class="red">*</span>
+            <select name="tipuscarrer" id="">
+                <option value="11">Carrer</option>
+                <option value="22">Avinguda</option>
+                <option value="33">Carretera</option>
+                <option value="44">Ronda</option>
+                <option value="55">Autopista</option>
+                <option value="66">Rambla</option>
+                <option value="77">Camí</option>
+            </select>
+            <input type="text" required name="direcció" maxlength="150" placeholder="Direcció">
+            <input type="text" name="nombredireccio" placeholder="Numero puerta (opcional)" min="1"> <!-- No te perquè tenir nombre, per això no ho pos obligatori. Pos text per un posible "3B" nom amb lletra.-->
+        </label> <br><br>
+        <label for="poblacio">Població: <span class="red">*</span>
+            <select required name="poblacio" id="">
+                <option value="1">Alaior</option>
+                <option value="2">Ciutadella</option>
+                <option value="3">Es Castell</option>
+                <option value="4">Es Mercadal</option>
+                <option value="5">Es Migjorn Gran</option>
+                <option value="6">Ferreries</option>
+                <option value="7">Maó</option>
+                <option value="8">Sant Climent</option>
+                <option value="9">Sant Lluís</option>
+                <option value="10">Altres</option>
+            </select>
+        </label>
+        <label for="codi_postal">Codi postal
+            <input type="number" name="codi_postal" id="" min="0">
+        </label>
+        <br><br>
+        <label for="club">Club: <br>
+            <textarea name="club" rows="4" cols="50" placeholder="Escriu aquí..."></textarea>
+        </label><br><br>
+        <label for="talla">Talla samarreta:
+            <select id="" name="talla">
+                <option value="XS">XS</option>
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="XL">XL</option>
+                <option value="XXL">XXL</option>
+            </select>
+        </label>    
+    </form>
+    <h1><b>DADES DE LA CURSA</b></h1>
+    <form action="" method="get">
+        <label for="cursa">Circuit: <span class="red">*</span></label>
+        <select required id="" name="cursa">
+            <option value="verd">Verd</option>
+            <option value="blau">Blau</option>
+            <option value="vermell">Vermell</option>
+        </select>
+
+        <p>Títol: <span id="">Circuit (verd, blau o vermell)</span></p>
+  
+        <p>Curses òn:</p>
+        <ul>
+            <li><strong>Cursa mini (verd)</strong>: 1.700 m aprox.</li>
+            <li><strong>Cursa mitjana (blau)</strong>: 4.995 m aprox.</li>
+            <li><strong>Cursa gran (vermell)</strong>: 10.000 m aprox.</li>
+        </ul>
+        <label for="comentaris">Comentaris: <br>
+            <textarea id="" name="comentaris" rows="4" cols="50" maxlength="200" placeholder="Comentaris"></textarea>
+        </label>   
+        <hr>
+        <label for="normes">
+            <input type="checkbox" required>Accepto i assumeixo les normes de participació que regulen la Cursa Popular
+            Ciutat de XYZ.
+        </label>
+        <br><br>
+        <label for="info">
+            <input type="checkbox" name="info" checked id="">Que estic interessat/da en rebre informació sobre les activitats esportives
+            organitzades per l’Ajuntament i dono el meu consentiment per a la tramesa
+            d’informació al respecte.
+        </label>
+        <br><br>
+        <input type="submit" name="envia" id="">
+    </form>
+</body>
+</html>
