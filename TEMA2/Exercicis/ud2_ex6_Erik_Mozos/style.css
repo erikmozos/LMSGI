@@ -6,15 +6,20 @@
     
 }
 
+img{
+    height: 202px;
+}
 header{
   background-color: #d3d0cb;
   padding: 10px 0;
   text-align: center; 
-  ;
+  height: auto;
 }
 nav a{
     text-decoration: none;
     color: #000;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 nav a:hover{
@@ -22,8 +27,12 @@ nav a:hover{
     text-decoration: underline;
 }
 
+nav a:active{
+    text-decoration: underline;
+}
+
 main{
-    background-color: #000;
+    background-color: rgb(30, 32, 25);
     text-align: center;
     padding-bottom: 30px;
 }
@@ -41,38 +50,38 @@ form{
    margin-right: 10cm;
    padding: 20px;
 }
+
 form p{
     color: #d3d0cb;
     padding: 10px;
-    font-family:;
 }
-
 
 form p input, textarea{
     text-align: justify;
 }
 
-input:focus {
-    border: 2px solid #e2c044d8;
-    outline: none;
-  }
+form a{
+    color: #ccc;
+}
 
- input:checked{
+input:focus, input:checked, textarea:focus {
     border: 2px solid #e2c044d8;
     outline: none;
- } 
+}
+
+/* Aquet input no se si funciona, no me deixa passar comprovar-ho es navegador. */
+input[type=radio]:focus{
+    border: 2px solid #e2c044d8;
+}
 
 h3{
     color: #ded0cb;
+    padding: 10px;
 }
 
 input[type=submit]{
-    background-color: #e2c044d8;
+    background-color: rgb(226, 192, 68);
     width: 4pc;
     border-radius: 4px;
     text-align: center;
-}
-
-div{
-    padding: 0px;
 }
