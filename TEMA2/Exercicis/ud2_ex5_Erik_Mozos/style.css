@@ -1,0 +1,18 @@
+h1{
+    border-bottom: 2px solid;
+    border-color: #00f;
+}
+
+h2{
+    border: 2px solid;
+    border-color: #AAA;
+}
+
+h2 + ul{
+    border: 4px dotted;
+    border-color: #F00;
+}
+
+p + ul{
+    border: 2px #0F0 dashed;
+}
