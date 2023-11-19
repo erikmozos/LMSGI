@@ -25,18 +25,12 @@ a:visited{
     text-decoration: none;
     color: rgb(73, 119, 32);
 }
+
 a:focus{
     color: #0000FF;
     text-decoration: underline;
     text-decoration-color: #ccc;
 }
-
-a:active{
-    text-decoration: none;
-    background-color: #ff8000;
-}
-
-
 
 a:hover{
     color: #ccc;
@@ -45,10 +39,14 @@ a:hover{
     text-decoration-color: #ccc;
 }
 
-
 footer {
-        background-color: #333;
-        color: #fff;
-        text-align: center;
-        padding: 10px 0;
-      }
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+a:active{
+    text-decoration: none;
+    background-color: #ff8000;
+}
