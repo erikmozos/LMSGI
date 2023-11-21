@@ -1,0 +1,44 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+body{
+    width: 960px;
+}
+
+h1{
+    text-align: center;
+}
+
+.tot{
+    
+}
+
+.datos{
+    width: 260px;
+    float: left;
+}
+
+.datos li{
+}
+
+.Desc p{
+    padding-top: 10px;
+}
+.Desc, .content{
+    width: 700px;
+    float: right; 
+
+}
+
+.content{
+    padding-top: 50px;
+}
+
+.content li{
+    padding: 10px;
+    list-style-type: none;
+    width: 33%;
+}
