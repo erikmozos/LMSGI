@@ -1,19 +1,14 @@
-*{
-    margin: 0 auto;
+*{    
     padding: 0;
-
 }
 
 body{
     width: 960px;
+    margin: 0 auto;
 }
 
 h1{
     text-align: center;
-}
-
-.tot{
-    
 }
 
 .datos{
@@ -22,23 +17,21 @@ h1{
 }
 
 .datos li{
+    margin-left: 1cm;
 }
 
 .Desc p{
     padding-top: 10px;
 }
-.Desc, .content{
+
+.col-dreta{
+    float: right;
     width: 700px;
-    float: right; 
-
 }
 
-.content{
-    padding-top: 50px;
-}
-
-.content li{
-    padding: 10px;
+.content ul>li{
     list-style-type: none;
-    width: 33%;
+    width: 200px;
+    float: left;
+    padding-right: 10px;
 }
