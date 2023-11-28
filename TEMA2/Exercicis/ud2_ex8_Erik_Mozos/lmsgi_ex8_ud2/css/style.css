@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header nav{
+    text-align: center;
+}
+
+img{
+    width: 100px;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
