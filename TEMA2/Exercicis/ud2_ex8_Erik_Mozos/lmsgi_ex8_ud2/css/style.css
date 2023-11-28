@@ -1,4 +1,4 @@
-body{
+*{
     margin: 0;
     padding: 0;
 }
@@ -7,24 +7,57 @@ header nav{
     text-align: center;
 }
 
-img{
+header img{
     width: 100px;
 }
 
-.menu{
-    display: flex;
+div.menu ul li{
+    display: inline;
 }
 
-.menu ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
+div.menu ul{
+    display: inline;
 }
+
+div.menu div{
+    display: inline;
+    position: absolute;
+    right: 10px;
+}
+
+
 
 .menu a{
     text-decoration: none;
     color: black;
     padding: 10px;
+}
+h1{
+    color: black;
+}
+main{
+    display: inline;
+}
+main div aside{
+    display: inline-block;
+    width: 20%;
+    position: absolute;
+    top:14%;
+}
+
+main div section{
+    display: inline-block;
+    width: 80%;
+    margin-left: 20%;
+}
+
+main div section article{
+    display: inline-block;
+    width: 23%;
+}
+
+main div section article img{
+    padding-right: 5px ;
+    width: 100%;
 }
 
