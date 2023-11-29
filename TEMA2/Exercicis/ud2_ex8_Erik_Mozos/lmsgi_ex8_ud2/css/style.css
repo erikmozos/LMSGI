@@ -1,63 +1,168 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-header nav{
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+header nav {
     text-align: center;
 }
 
-header img{
+header img {
     width: 100px;
 }
 
-div.menu ul li{
+div.menu ul li {
     display: inline;
 }
 
-div.menu ul{
+div.menu ul {
     display: inline;
 }
 
-div.menu div{
+div.menu div {
     display: inline;
     position: absolute;
-    right: 10px;
+    right: 1%;
 }
 
 
 
-.menu a{
+.menu a {
     text-decoration: none;
     color: black;
-    padding: 10px;
+    padding: 1%;
 }
-h1{
+
+h1 {
     color: black;
 }
-main{
+
+main {
     display: inline;
 }
-main div aside{
+
+main div aside {
     display: inline-block;
     width: 20%;
     position: absolute;
-    top:14%;
+    top: 14%;
+    padding-left: 5%;
 }
 
-main div section{
+aside ul {
+    padding-bottom: 4%;
+}
+
+aside ul li {
+    list-style-type: none;
+    padding-top: 2%;
+}
+
+aside ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+main div section {
     display: inline-block;
     width: 80%;
     margin-left: 20%;
 }
 
-main div section article{
+main div section article {
     display: inline-block;
     width: 23%;
 }
 
-main div section article img{
-    padding-right: 5px ;
+main div section article img {
+    padding-right: 5px;
     width: 100%;
 }
 
+#products-filter {
+    background-color: lightgray;
+    height: 50px;
+}
+
+#products-filter div {
+    padding-top: 15px;
+    padding-left: 25px;
+}
+
+#products-filter div a {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+
+#load-more-products {
+    text-align: center;
+}
+
+button, input[type=button]{
+    background-color: #ff8800;
+    border-color: #ff8800;
+    border-radius: 3px;
+    border-color: #ff8800;
+    
+}
+
+#load-more-products button{
+    width: 7%;
+    height: 35px;
+    margin-bottom: 7%;
+    margin-top: 2%;
+}
+
+#back-to-top{
+    position: fixed;
+    top: 87%;
+    left: 90%;
+    height: 3%;
+    width: 2%;
+}
+
+footer{
+    margin-top: 50px;
+    position: fixed;
+    bottom: 0%;
+    background-color: lightgray;
+    width: 100%;
+    height: 8%;
+    text-align: center;
+
+}
+
+footer ul li{
+    display: inline;
+}
+
+footer ul{
+    padding-top: 15px;
+}
+
+button:hover, input[type=button]:hover{
+    background-color: #db7603;
+}
+
+.menu a:hover, aside ul li a:hover{
+    text-decoration: underline;
+    color :#ff8800;
+}
+
+main div section article img:hover {
+    opacity: 70%;
+
+}
+
+.item-details{
+    font-weight: bold;
+}
+
+#products-filter div a:hover{
+    text-decoration: underline;
+}
