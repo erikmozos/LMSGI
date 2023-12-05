@@ -1,0 +1,13 @@
+/* Todos parrafos */
+p{
+    color: darkslategray;
+}
+
+
+/*  Listas dentre de un nav*/
+
+nav ul{
+    list-style: null;
+}
+
+/*  */
