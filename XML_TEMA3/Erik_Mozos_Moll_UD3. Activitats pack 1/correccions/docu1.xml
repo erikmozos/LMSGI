@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<documento>
+<p>Mi Primer <destacar importancia="1">documento
+XML</destacar></p>
+<p>Comienza con la etiqueta &lt;documento&gt;</p>
+<p>A continuacion colocamos un elemento sin
+contenido</p>
+<imagen fichero="imagen.gif"/>
+</documento>
