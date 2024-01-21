@@ -1,0 +1,24 @@
+<!DOCTYPE comanda SYSTEM "tractor.dtd">
+<comanda>
+    <tractor>
+        <component nomFabricant="Lamborghini">
+            <dataEntrega>
+                <mes>01</mes>
+                <any>2024</any>
+            </dataEntrega>
+            <fragil>true</fragil>
+            <pesComponent unitatPes="Kg">1500</pesComponent>
+            <nombreSerie>12345trewq</nombreSerie>
+            <kmMaxims>55000</kmMaxims>
+        </component>
+        <component nomFabricant="Ferrari">
+            <dataEntrega>
+                <mes>04</mes>
+                <any>2024</any>
+            </dataEntrega>
+            <fragil>false</fragil>
+            <pesComponent unitatPes="grams">5500</pesComponent>
+            <nombreSerie>67890tyuiop</nombreSerie>
+        </component>
+    </tractor>
+</comanda>
