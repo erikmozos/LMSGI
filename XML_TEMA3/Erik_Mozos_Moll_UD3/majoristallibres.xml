@@ -1,0 +1,64 @@
+<!DOCTYPE operaciones [
+    <!ELEMENT operaciones (operacion+)>
+    <!ELEMENT operacion (venta | compra)+>
+    
+    <!ELEMENT venta (titulosvendidos)>
+    <!ELEMENT titulosvendidos (titulo+, cantidadtotal, entregado?, importe)>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT cantidadtotal (#PCDATA)>
+    <!ELEMENT entregado EMPTY>
+    <!ELEMENT importe (#PCDATA)>
+    <!ATTLIST importe moneda CDATA #REQUIRED>
+    
+    <!ELEMENT compra (tituloscomprados)>
+    <!ELEMENT tituloscomprados (titulo+, proveedor, fechacompra)>
+    <!ELEMENT proveedor (#PCDATA)>
+    <!ELEMENT fechacompra (dia, mes, anio)>
+    <!ELEMENT dia (#PCDATA)>
+    <!ELEMENT mes (#PCDATA)>
+    <!ELEMENT anio (#PCDATA)>
+]>
+<operaciones>
+    <operacion>
+        <venta>
+            <titulosvendidos>
+                <titulo>Falcó</titulo>
+                <titulo>Eva</titulo>
+                <cantidadtotal>500</cantidadtotal>
+                <importe moneda="euros">4450</importe>
+            </titulosvendidos>
+        </venta>
+        <venta>
+            <titulosvendidos>
+                <titulo>Nadie es normal</titulo>
+                <titulo>Crimenes</titulo>
+                <cantidadtotal>4000</cantidadtotal>
+                <entregado/>
+                <importe moneda="libras">2290</importe>
+            </titulosvendidos>
+        </venta>
+    </operacion>
+    <operacion>
+        <compra>
+            <tituloscomprados>
+                <titulo>Robinson Crusoe</titulo>
+                <titulo>En Teo va d'excursio</titulo>
+                <proveedor>LAL</proveedor>
+                <fechacompra>
+                    <dia>10</dia>
+                    <mes>6</mes>
+                    <anio>2018</anio>
+                </fechacompra>
+            </tituloscomprados>
+        </compra>
+        <venta>
+            <titulosvendidos>
+                <titulo>El mito de la IA</titulo>
+                <titulo>Mi vida es mia</titulo>
+                <cantidadtotal>1700</cantidadtotal>
+                <entregado/>
+                <importe moneda="euros">4490</importe>
+            </titulosvendidos>
+        </venta>
+    </operacion>
+</operaciones>
