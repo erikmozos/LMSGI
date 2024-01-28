@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE demanat [
+    <!ELEMENT demanat (llibre| quadern| llapis)*>
+    
+    <!ELEMENT llibre (#PCDATA)>
+    <!ELEMENT quadern (#PCDATA)>
+    <!ELEMENT llapis (numero)>
+
+    <!ELEMENT numero (#PCDATA)>
+
+    <!ATTLIST llibre titol #REQUIRED>
+    <!ATTLIST quadern num_fulles #IMPLIED>
+    ]>
+
+<demanat>
+    <llibre titol="El Señor de los Anillos">Fantasía épica</llibre>
+    <quadern num_fulles="100">Quaderno de notas</quadern>
+    <llapis>
+        <numero>5</numero>
+    </llapis>
+    <llapis>
+        <numero>3</numero>
+    </llapis>
+    <quadern num_fulles="50">Otro cuaderno</quadern>
+</demanat>
+

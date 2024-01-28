@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE llistacursos [
+    <!ELEMENT llistacursos (curs+)>
+    <!ELEMENT curs (alumne+)>
+    <!ELEMENT alumne (DNI, nom, cognom, segon_cognom?)>
+
+    <!ELEMENT DNI (#PCDATA)>
+    <!ELEMENT nom (#PCDATA)>
+    <!ELEMENT cognom (#PCDATA)>
+    <!ELEMENT segon_cognom (#PCDATA)>
+
+    <!ELEMENT llistaassignatures(assignatura+)>
+    <!ELEMENT assignatura(nom, professor)>
+    <!ELEMENT professor(NRP, nom, cognom, segon_cognom)>
+
+    <!ELEMENT NRP (#PCDATA)>
+
+    <!ATTLIST assignatura codi CDATA #REQUIRED>
+
+
+
+]>
+
+<llistacursos>
+    <curs>
+        <alumne>
+            <DNI>1237654T</DNI>
+            <nom>Bad</nom>
+            <cognom>Bunny</cognom>
+        </alumne>
+        <alumne>
+            <DNI>8436589P</DNI>
+            <nom>Lluis</nom>
+            <cognom>Seguí</cognom>
+        </alumne>
+        <llistaassignatures>
+            <assignatura codi="LMSGI1DAW">
+                <nom>Introducció a la Informàtica</nom>
+                <professor>
+                    <NRP>789012345</NRP>
+                    <nom>Jose</nom>
+                    <cognom>Pérez</cognom>
+                    <segon_cognom>García</segon_cognom>
+                </professor>
+            </assignatura>
+            <assignatura codi="MAT101">
+                <nom>Matemàtiques</nom>
+                <professor>
+                    <NRP>567890123</NRP>
+                    <nom>Lluis</nom>
+                    <cognom>Morillas</cognom>
+                </professor>
+            </assignatura>
+        </llistaassignatures>
+    </curs>
+</llistacursos>
