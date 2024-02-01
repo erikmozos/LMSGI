@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="notaexamen">
+        <xs:complexType>
+            <xs:sequence>
+
+                <xs:element name="ciutat" type="xs:string" />
+
+                <xs:element name="data-de-naixement" type="xs:date" />
+
+                <xs:element name="hora" type="xs:time" />
+
+                <xs:element name="nota" type="xs:float" />
+
+                <xs:element name="apte" type="xs:boolean" />
+            </xs:sequence>
+        </xs:complexType>
+
+    </xs:element>
+
+
+</xs:schema>

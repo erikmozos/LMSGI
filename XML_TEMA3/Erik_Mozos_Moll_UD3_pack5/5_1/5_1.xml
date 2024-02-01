@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<notaexamen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="5_1.xsd">
+    <ciutat>Barcelona</ciutat>
+    <data-de-naixement>1995-08-25</data-de-naixement>
+    <hora>14:45:30</hora>
+    <nota>8.5</nota>
+    <apte>true</apte>
+  </notaexamen>
+  
