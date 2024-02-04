@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fitxes
+xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+xs:noNamespaceSchemaLocation="5_7.xsd">
+<fitxa>
+<nom>Ana Sanz Tin</nom>
+<inicials>AST</inicials>
+<edat>22</edat>
+<inicials-al-reves>TSA</inicials-al-reves>
+</fitxa>
+<fitxa>
+<nom>Iker Rubio Mol</nom>
+<inicials>IRM</inicials>
+<edat>23</edat>
+<inicials-al-reves>MRI</inicials-al-reves>
+</fitxa>
+</fitxes>
