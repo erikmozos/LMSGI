@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="asseguranca_cotxe">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="asseguranca" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="asseguradora" type="xs:string"/>
+              <xs:element name="geocobertura" type="xs:string"/>
+              <xs:element name="cobrament">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="financament" type="xs:integer"/>
+                    <xs:element name="mensualitat" type="xs:decimal"/>
+                    <xs:element name="mensualitativa" type="xs:decimal"/>
+                    <xs:element name="anual" type="xs:decimal"/>
+                  </xs:sequence>
+                  <xs:attribute name="en" type="xs:string"/>
+                  <xs:attribute name="mensual" type="xs:string"/>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="promocions" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="descompteonline" type="xs:integer" minOccurs="0"/>
+                    <xs:element name="descompteedat" minOccurs="0">
+                      <xs:complexType>
+                        <xs:attribute name="edad" type="xs:integer"/>
+                        <xs:attribute name="import" type="xs:decimal"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="nouclient" type="xs:string"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:integer"/>
+            <xs:attribute name="denominacio" type="xs:string"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

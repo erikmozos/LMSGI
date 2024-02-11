@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="empleats">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="empleat">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="nom" type="xs:string"></xs:element>
+                        <xs:element name="datainicicontracte">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="dia" type="xs:gDay"></xs:element>
+                                    <xs:element name="mes" type="xs:gMonth"></xs:element>
+                                    <xs:element name="any" type="xs:gYear"></xs:element>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                        <xs:element name="llocqueocupa" type="xs:string"></xs:element>
+                        <xs:element name="llocsqueaocupat" type="xs:string" minOccurs="0"></xs:element>
+                        <xs:element name="elseucap" type="xs:IDREF"></xs:element>
+                        <xs:element name="salari" type="xs:decimal"></xs:element>
+                        <xs:element name="Titols" type="xs:string" minOccurs="0" maxOccurs="unbounded"></xs:element>
+                        <xs:element name="seu" fixed="Madrid|Barcelona|València"></xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+</xs:schema>

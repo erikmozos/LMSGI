@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="expedients">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="expedient" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="titulacio" type="xs:string"/>
+              <xs:element name="estudiant" type="xs:string"/>
+              <xs:element name="moduls" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="modul" minOccurs="0" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:attribute name="nom" type="xs:string" use="required"/>
+                        <xs:attribute name="aprovat" type="xs:boolean" use="required"/>
+                        <xs:attribute name="curs" use="required">
+                          <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                              <xs:enumeration value="Primer"/>
+                              <xs:enumeration value="Segon"/>
+                            </xs:restriction>
+                          </xs:simpleType>
+                        </xs:attribute>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

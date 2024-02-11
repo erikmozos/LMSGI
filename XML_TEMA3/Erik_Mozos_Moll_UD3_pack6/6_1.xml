@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registre_temperatura>
+    <provincia>Barcelona</provincia>
+    <data>2024-02-11</data>
+    <temperatura_minima>5.0</temperatura_minima>
+    <temperatura_maxima>15.5</temperatura_maxima>
+    <incidencies>
+        <incidencia nom="Lluvia" severitat="alta"/>
+        <incidencia nom="Viento" severitat="media"/>
+    </incidencies>
+</registre_temperatura>
