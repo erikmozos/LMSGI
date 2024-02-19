@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<viatges>
+  <viatge>
+    <client>
+    <nom>Peri</nom>
+    <cognoms>Mozos</cognoms>
+    </client>
+    <dataInici>2022-06-01</dataInici>
+    <dataFi>2022-06-15</dataFi>
+    <origen>Cancún</origen>
+    <destins>
+      <destinacio>
+        <ciutat>Paris</ciutat>
+        <hotel>Hotel Bagette</hotel>
+        <nits>3</nits>
+        <preu>500</preu>
+      </destinacio>
+      <destinacio>
+        <ciutat>Viena</ciutat>
+        <hotel>Hotel Savoy</hotel>
+        <nits>4</nits>
+        <preu>600</preu>
+      </destinacio>
+      <destinacio>
+        <ciutat>Roma</ciutat>
+        <hotel>Hotel Coliseu</hotel>
+        <nits>5</nits>
+        <preu>700</preu>
+      </destinacio>
+    </destins>
+    <preuTotal>1800</preuTotal>
+  </viatge>
+
+
+  <viatge>
+    <client>
+        <nom>Panxurri</nom>
+        <cognoms>Segura</cognoms>
+    </client>
+    <dataInici>2022-03-11</dataInici>
+    <dataFi>2022-03-23</dataFi>
+    <origen>Australia</origen>
+    <destins>
+        <destinacio>
+            <ciutat>Londres</ciutat>
+            <hotel>Hotel TeaTime</hotel>
+            <nits>3</nits>
+            <preu>550</preu>
+        </destinacio>
+        <destinacio>
+            <ciutat>Ámsterdam</ciutat>
+            <hotel>Hotel Tulip</hotel>
+            <nits>4</nits>
+            <preu>650</preu>
+        </destinacio>
+        <destinacio>
+            <ciutat>El Cairo</ciutat>
+            <hotel>Hotel Aña</hotel>
+            <nits>5</nits>
+            <preu>750</preu>
+        </destinacio>
+    </destins>
+    <preuTotal>1950</preuTotal>
+</viatge>
+
+<viatge>
+    <client>
+        <nom>Antoni</nom>
+        <cognoms>Marques</cognoms>
+    </client>
+    <dataInici>2022-07-01</dataInici>
+    <dataFi>2022-07-15</dataFi>
+    <origen>Sídney</origen>
+    <destins>
+        <destinacio>
+            <ciutat>Tokio</ciutat>
+            <hotel>Hotel Sakura</hotel>
+            <nits>3</nits>
+            <preu>600</preu>
+        </destinacio>
+        <destinacio>
+            <ciutat>París</ciutat>
+            <hotel>Hotel Louvre</hotel>
+            <nits>4</nits>
+            <preu>700</preu>
+        </destinacio>
+        <destinacio>
+            <ciutat>Los Ángeles</ciutat>
+            <hotel>Hotel Hollywood Hills</hotel>
+            <nits>5</nits>
+            <preu>800</preu>
+        </destinacio>
+    </destins>
+    <preuTotal>2100</preuTotal>
+</viatge>
+</viatges>

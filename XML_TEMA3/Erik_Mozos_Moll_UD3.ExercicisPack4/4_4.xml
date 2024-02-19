@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE arxius [
+<!ELEMENT arxius (futurs*, divises*, bons*, lletres*)>
+<!ELEMENT futurs (producte, element_mercat, preu, element_buit)>
+<!ELEMENT divises (nom, tipus_de_canvi*, preu, element_buit, estable_en_el_passat?)>
+<!ELEMENT tipus_de_canvi (altre_divisa, valor_del_tipus_de_canvi)>
+<!ELEMENT bons (producte, pais_de_procedencia, valor_desitjat, valor_minim, valor_maxim, preu, element_buit, estable_en_el_passat?)>
+<!ELEMENT lletres (tipus_interes_pagable, pais_emissor, preu)>
+
+<!ELEMENT producte (#PCDATA)>
+<!ELEMENT element_mercat (#PCDATA)>
+<!ELEMENT preu (#PCDATA)>
+<!ELEMENT element_buit (#PCDATA)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT estable_en_el_passat (#PCDATA)>
+<!ELEMENT tipus_interes_pagable (#PCDATA)>
+<!ELEMENT pais_emissor (#PCDATA)>
+<!ELEMENT altre_divisa (#PCDATA)>
+<!ELEMENT valor_del_tipus_de_canvi (#PCDATA)>
+<!ELEMENT pais_de_procedencia (#PCDATA)>
+<!ELEMENT valor_desitjat (#PCDATA)>
+<!ELEMENT valor_minim (#PCDATA)>
+<!ELEMENT valor_maxim (#PCDATA)>
+
+]>
+
+<arxius>
+  <futurs>
+    <producte>Rockstar</producte>
+    <element_mercat>USA</element_mercat>
+    <preu>150000</preu>
+    <element_buit>Madrid/Nova_York/Frankfurt/Tòquio</element_buit>
+  </futurs>
+  <divises>
+    <nom>Euro</nom>
+    <tipus_de_canvi>
+      <altre_divisa>Iens</altre_divisa>
+      <valor_del_tipus_de_canvi>1,56</valor_del_tipus_de_canvi>
+    </tipus_de_canvi>
+    <preu>1560000</preu>
+    <element_buit>Madrid/Nova_York/Frankfurt/Tòquio</element_buit>
+    <estable_en_el_passat>Cert</estable_en_el_passat>
+  </divises>
+  <bons>
+    <producte>Aña</producte>
+    <pais_de_procedencia>Alemania</pais_de_procedencia>
+    <valor_desitjat>200</valor_desitjat>
+    <valor_minim>100</valor_minim>
+    <valor_maxim>300</valor_maxim>
+    <preu>175</preu>
+    <element_buit>Madrid/Nova_York/Frankfurt/Tòquio</element_buit>
+    <estable_en_el_passat>Fals</estable_en_el_passat>
+  </bons>
+  <lletres>
+    <tipus_interes_pagable>150</tipus_interes_pagable>
+    <pais_emissor>Espanya</pais_emissor>
+    <preu>Valor</preu>
+  </lletres>
+</arxius>

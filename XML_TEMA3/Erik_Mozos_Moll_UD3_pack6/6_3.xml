@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<subhasta>
+    <objecte>
+        <propietari>Toniet Barrerita</propietari>
+        <preu_sortida>150.00</preu_sortida>
+        <preu_minim>120.00</preu_minim>
+    </objecte>
+    <objecte>
+        <propietari>Lopes Antonio</propietari>
+        <preu_sortida>200.00</preu_sortida>
+    </objecte>
+    <objecte>
+        <propietari>Paueti sintes</propietari>
+        <preu_sortida>100.00</preu_sortida>
+        <preu_minim>80.00</preu_minim>
+    </objecte>
+</subhasta>

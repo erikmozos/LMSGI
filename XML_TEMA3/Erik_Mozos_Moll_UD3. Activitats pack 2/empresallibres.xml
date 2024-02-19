@@ -1,0 +1,40 @@
+<!DOCTYPE empresa_llibres [
+    <!ELEMENT empresa (operacio+)>
+    <!ELEMENT operacio (venda | compra)>
+    
+    <!ELEMENT venda (titol+, quantitat, lliurat?, import)>
+    <!ELEMENT titol (#PCDATA)>
+    <!ELEMENT quantitat (#PCDATA)>
+    <!ELEMENT lliurat (#PCDATA)>
+    <!ELEMENT import (#PCDATA)>
+    <!ATTLIST import moneda CDATA #REQUIRED>
+    
+    <!ELEMENT compra (titol+, proveidor, data)>
+    <!ELEMENT proveidor (#PCDATA)>
+    <!ELEMENT data (dia, mes, any)>
+    <!ELEMENT dia (#PCDATA)>
+    <!ELEMENT mes (#PCDATA)>
+    <!ELEMENT any (#PCDATA)>
+]>
+<empresa>
+    <operacio>
+        <venda>
+            <titol>En Teo va a sa piscina</titol>
+            <titol>Robinson Crusoe</titol>
+            <quantitat>50</quantitat>
+            <lliurat>true</lliurat>
+            <import moneda="euro">2675</import>
+        </venda>
+    </operacio>
+    <operacio>
+        <compra>
+            <titol>Falcó</titol>
+            <proveidor>Santillana</proveidor>
+            <data>
+                <dia>28</dia>
+                <mes>02</mes>
+                <any>2024</any>
+            </data>
+        </compra>
+    </operacio>
+</empresa>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conexions_ADSL>
+    <oferta id="1" nom="Oferta1">
+        <nom_compania>eteperi</nom_compania>
+        <velocitat_transferencia unitat="Mbps">
+            <pujada>5.5</pujada>
+            <baixada>20.0</baixada>
+        </velocitat_transferencia>
+        <preu moneda="Euros">
+            <alta gratis="si" permanencia="12 meses"/>
+            <linea>15.99</linea>
+            <mensual>29.99</mensual>
+            <total_mensual>45.98</total_mensual>
+        </preu>
+    </oferta>
+    <oferta id="2" nom="Oferta2">
+        <nom_compania>aña</nom_compania>
+        <velocitat_transferencia unitat="Mbps">
+            <pujada>10.0</pujada>
+            <baixada>50.5</baixada>
+        </velocitat_transferencia>
+        <preu moneda="Dólares">
+            <linea>25.50</linea>
+            <mensual>39.99</mensual>
+            <total_mensual>65.49</total_mensual>
+        </preu>
+    </oferta>
+</conexions_ADSL>

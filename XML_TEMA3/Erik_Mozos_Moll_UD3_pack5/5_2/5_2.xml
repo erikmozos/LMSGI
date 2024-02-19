@@ -1,0 +1,4 @@
+<elementlogic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="5_2.xsd">
+    <portaTancada>true</portaTancada>
+    <finestraOberta>true</finestraOberta>
+  </elementlogic>

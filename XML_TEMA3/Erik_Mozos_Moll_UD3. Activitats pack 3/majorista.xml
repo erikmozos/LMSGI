@@ -1,0 +1,37 @@
+<!DOCTYPE majoristainformatic [
+    <!ELEMENT entrega (lot+)>
+    <!ELEMENT lot (palet+)>
+    <!ELEMENT palet (capses, contingut)>
+    <!ELEMENT capses (#PCDATA)>
+    <!ELEMENT contingut (nomcomponent, procedencia*, nombredeserie, pescomponent, unitatpes?)>
+    <!ELEMENT nomcomponent (#PCDATA)>
+    <!ELEMENT procedencia (#PCDATA)>
+    <!ELEMENT numeroserie (#PCDATA)>
+    <!ELEMENT pescomponent (#PCDATA)>
+    <!ELEMENT unitatpes (#PCDATA)>
+]>
+<majoristainformatic>
+    <entrega>
+        <lot>
+            <palet>
+                <capses>12</capses>
+                <contingut>
+                    <nomcomponent>Amd Ryzen 7</nomcomponent>
+                    <procedencia>Espanya</procedencia>
+                    <procedencia>Estats Units</procedencia>
+                    <nombredeserie>123456OLKJ</nombredeserie>
+                    <pescomponent>2</pescomponent>
+                    <unitatpes>kilos</unitatpes>
+                </contingut>
+            </palet>
+            <palet>
+                <capses>15</capses>
+                <contingut>
+                    <nomcomponent>Memòria RAM</nomcomponent>
+                    <nombredeserie>XYZ789</nombredeserie>
+                    <pescomponent>0.5</pescomponent>
+                </contingut>
+            </palet>
+        </lot>
+    </entrega>
+</majoristainformatic>

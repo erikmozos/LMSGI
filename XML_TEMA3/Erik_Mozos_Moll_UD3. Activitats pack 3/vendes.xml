@@ -1,0 +1,24 @@
+<!DOCTYPE llistavendes [
+    <!ELEMENT llistavendes (venda+)>
+    <!ELEMENT venda (import, comprador, venedor, data?, codidefactura)>
+    <!ELEMENT import (#PCDATA)>
+    <!ELEMENT comprador (#PCDATA)>
+    <!ELEMENT venedor (#PCDATA)>
+    <!ELEMENT data (#PCDATA)>
+    <!ELEMENT codifactura (#PCDATA)>
+]>
+<llistavendes>
+    <venda>
+        <import>500</import>
+        <comprador>Bad Bunny</comprador>
+        <venedor>Arcangel</venedor>
+        <data>2024-05-24</data>
+        <codidefactura>342343ADGD</codidefactura>
+    </venda>
+    <venda>
+        <import>3200</import>
+        <comprador>Toniet</comprador>
+        <venedor>Arnauet</venedor>
+        <codidefactura>987GFSDF</codidefactura>
+    </venda>
+</llistavendes>

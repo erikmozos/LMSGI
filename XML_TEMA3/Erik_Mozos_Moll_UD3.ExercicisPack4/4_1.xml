@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fitxers [
+    <!ELEMENT llistafactures(factura+)>
+    <!ELEMENT factura(emissor, pagador, import)>
+    <!ELEMENT emissor(nom, volum_vendes?)>
+    <!ELEMENT pagador(nom, volum_vendes?)>
+
+    <!ATTLIST emissor CIF CDATA #REQUIRED>
+    <!ATTLIST pagador CIF CDATA #REQUIRED>
+    <!ATTLIST factura data CDATA #IMPLIED>
+
+    <!ELEMENT nom (#PCDATA)>
+    <!ELEMENT volum_vendes (#PCDATA)>
+    <!ELEMENT import (#PCDATA)>
+]>
+
+<llistafactures>
+    <factura data="2023-02-24">
+        <emissor CIF="986784354HJGJT">
+            <nom>El PERI</nom>
+            <volum_vendes>100340</volum_vendes>
+        </emissor>
+        <pagador CIF="23454546GTFDF">
+            <nom>Lucasito</nom>
+            <volum_vendes>240000</volum_vendes>
+        </pagador>
+        <import>5000</import>
+    </factura>
+    <factura data="">
+        <emissor CIF="567890123C">
+            <nom>Juanasito</nom>
+        </emissor>
+        <pagador CIF="9878435KRT">
+            <nom>Pepesito</nom>
+        </pagador>
+        <import>35500</import>
+    </factura>
+</llistafactures>

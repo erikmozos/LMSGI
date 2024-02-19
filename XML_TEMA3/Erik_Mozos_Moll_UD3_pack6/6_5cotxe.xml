@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<asseguranca_cotxe>
+    <asseguranca id="1" denominacio="Ex1">
+        <asseguradora>Compañia1</asseguradora>
+        <geocobertura>Local</geocobertura>
+        <cobrament en="Euros" mensual="true">
+            <financament>12</financament>
+            <mensualitat>100.50</mensualitat>
+            <mensualitativa>50.25</mensualitativa>
+            <anual>1200.75</anual>
+        </cobrament>
+        <promocions nouclient="true">
+            <descompteonline>5</descompteonline>
+            <descompteedat edad="30" import="10.50"/>
+        </promocions>
+    </asseguranca>
+    <asseguranca id="2" denominacio="Ex2">
+        <asseguradora>Compañia2</asseguradora>
+        <geocobertura>Nacional</geocobertura>
+        <cobrament en="Dólares" mensual="false">
+            <financament>6</financament>
+            <mensualitat>75.75</mensualitat>
+            <mensualitativa>40.25</mensualitativa>
+            <anual>900.50</anual>
+        </cobrament>
+        <promocions nouclient="false">
+            <descompteonline>0</descompteonline>
+        </promocions>
+    </asseguranca>
+</asseguranca_cotxe>

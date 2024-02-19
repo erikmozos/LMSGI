@@ -1,0 +1,23 @@
+<!DOCTYPE llistacomandes [
+    <!ELEMENT llistacomandes (comanda*)>
+    <!ELEMENT comanda (numeroserie, quantitat, pes?)>
+    <!ELEMENT numeroserie (#PCDATA)>
+    <!ELEMENT quantitat (#PCDATA)>
+    <!ELEMENT pes (#PCDATA)>
+]>
+<llistacomandes>
+    <comanda>
+        <nombredeserie>AUC142</nombredeserie>
+        <quantitat>10</quantitat>
+        <pes>50</pes>
+    </comanda>
+    <comanda>
+        <nombredeserie>TRZ129</nombredeserie>
+        <quantitat>5</quantitat>
+        <pes>10</pes>
+    </comanda>
+    <comanda>
+        <nombredeserie>2345ÑLK</nombredeserie>
+        <quantitat>5</quantitat>
+    </comanda>
+</llistacomandes>

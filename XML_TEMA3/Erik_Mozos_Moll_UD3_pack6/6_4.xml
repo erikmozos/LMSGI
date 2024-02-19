@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empleats>
+    <empleat>
+        <nom>Lucasito Lacasito</nom>
+        <datainicicontracte>
+            <dia>15</dia>
+            <mes>03</mes>
+            <any>2022</any>
+        </datainicicontracte>
+        <llocqueocupa>Desarrollador</llocqueocupa>
+        <llocsqueaocupat>Proyecto X, Proyecto Y</llocsqueaocupat>
+        <elseucap>id001</elseucap>
+        <salari>50000.75</salari>
+        <Titols>Grado en Informática</Titols>
+        <Titols>Máster en Desarrollo de Software</Titols>
+        <seu>Madrid</seu>
+    </empleat>
+</empleats>

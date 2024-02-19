@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<expedients>
+    <expedient>
+        <titulacio>Ingeniería Informàtica</titulacio>
+        <estudiant>El Peri</estudiant>
+        <moduls>
+            <modul nom="Programación" aprovat="true" curs="Primer"/>
+            <modul nom="Bases de Datos" aprovat="false" curs="Primer"/>
+            <modul nom="Redes de Computadoras" aprovat="true" curs="Segon"/>
+        </moduls>
+    </expedient>
+    <expedient>
+        <titulacio>Administración de Empresas</titulacio>
+        <estudiant>Carlos Rodríguez</estudiant>
+    </expedient>
+</expedients>
