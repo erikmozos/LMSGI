@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    text-align: center;
+}
+
+header img{
+    width: 100px;
+}
+
+header ul li{
+    display: inline;
+    list-style: none;
+    padding: 3px;
+}
+
+header ul{
+    width: 50%;
+    display: inline;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+header div.menu div{
+    display: inline;
+    position: absolute;
+    right: 1%;
+}
+
+main aside{
+    display: inline-block;
+    width: 20%;
+    position: absolute;
+    top: 15%;
+    padding-left: 5%;
+}
+
+main aside ul{
+    list-style: none;
+}
+
+main aside ul a{
+    text-decoration: none;
+    color: black;
+}
+
+main section{
+    display: inline-block;
+    width: 80%;
+    margin-left: 20%;
+}
+
+#products-filter {
+    background-color: lightgray;
+    height: 50px;
+}
+
+#products-filter div {
+    padding-top: 15px;
+    padding-left: 25px;
+}
+
+#products-filter div a {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+
+main section article{
+    display: inline-block;
+    width: 23%;
+}
+
+main section article img{
+    width: 100%;
+    padding: 5px 5px 5px 0;
+}
+
+#load-more-products{
+    text-align: center;
+    margin-top: 3%;
+}
+
+#load-more-products button{
+    width: 10%;
+    background-color: #ff8800;
+}
+
+footer{
+    background-color: lightgray;
+    text-align: center;
+    margin-top: 3% ;
+    height: 60px;
+    padding-top: 20px;
+}
+
+footer ul li{
+    display: inline;
+    
+}
+
+#back-to-top{
+    position: fixed;
+    bottom: 10%;
+    right: 5%;
+    background-color: #ff8800;
+    width: 3%;
+}
