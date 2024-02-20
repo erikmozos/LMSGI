@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="arxius">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="futurs" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="producte" type="xs:string"/>
+              <xs:element name="element_mercat" type="xs:string"/>
+              <xs:element name="preu" type="xs:decimal"/>
+              <xs:element name="element_buit" type="xs:string"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <xs:element name="divises" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nom" type="xs:string"/>
+              <xs:element name="tipus_de_canvi" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="altre_divisa" type="xs:string"/>
+                    <xs:element name="valor_del_tipus_de_canvi" type="xs:decimal"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="preu" type="xs:decimal"/>
+              <xs:element name="element_buit" type="xs:string"/>
+              <xs:element name="estable_en_el_passat" type="xs:string"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <xs:element name="bons" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="producte" type="xs:string"/>
+              <xs:element name="pais_de_procedencia" type="xs:string"/>
+              <xs:element name="valor_desitjat" type="xs:decimal"/>
+              <xs:element name="valor_minim" type="xs:decimal"/>
+              <xs:element name="valor_maxim" type="xs:decimal"/>
+              <xs:element name="preu" type="xs:decimal"/>
+              <xs:element name="element_buit" type="xs:string"/>
+              <xs:element name="estable_en_el_passat" type="xs:string"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <xs:element name="lletres" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="tipus_interes_pagable" type="xs:decimal"/>
+              <xs:element name="pais_emissor" type="xs:string"/>
+              <xs:element name="preu" type="xs:string"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

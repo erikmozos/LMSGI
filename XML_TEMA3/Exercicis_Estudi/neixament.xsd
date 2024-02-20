@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="neixament">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="datos">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="ciutat" type="xs:string"/>
+                            <xs:element name="nota" type="xs:decimal"/>
+                            <xs:element name="data_neixament">
+                                <xs:complexType mixed="true">
+                                    <xs:attribute name="dia" type="xs:gDay" use="optional"/>
+                                    <xs:attribute name="mes" type="xs:gMonth" use="optional"/>
+                                    <xs:attribute name="any" type="xs:gYear" use="optional"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
