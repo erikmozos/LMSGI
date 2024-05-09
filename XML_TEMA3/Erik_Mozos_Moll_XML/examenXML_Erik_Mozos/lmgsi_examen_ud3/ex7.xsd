@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="granja">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="lloc" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="productor" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:string">
+                                            <xs:attribute name="id" type="xs:string" use="required"/>
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="animales">
+                                <xs:complexType>
+                                    <xs:choice maxOccurs="unbounded">
+
+                                            <xs:sequence>
+                                                <xs:element name="perro" type="decompa"/>
+                                                <xs:element name="cerdo" maxOccurs="unbounded">
+                                                    <xs:complexType>
+                                                    <xs:attribute name="cantidad" type="xs:integer" />
+                                                    </xs:complexType>
+                                                </xs:element>
+                                            </xs:sequence>
+
+                                            <xs:sequence>
+                                                <xs:element name="gato" type="decompa" maxOccurs="2"/>
+                                                <xs:element name="cerdo" maxOccurs="unbounded">
+                                                    <xs:complexType>
+                                                    <xs:attribute name="cantidad" type="xs:integer" />
+                                                    </xs:complexType>
+                                                </xs:element>
+                                            </xs:sequence>
+
+                                    </xs:choice>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="decompa">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute name="decompania" type="xs:boolean" use="required"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+</xs:schema>

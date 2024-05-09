@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> <videojocs> 
+    <videojoc any="2011"> 
+    <titol>MineCraft</titol> 
+    <tipus>Sandbox</tipus> 
+    <unitats-venudes>176000000</unitats-venudes>  </videojoc> 
+    <videojoc any="1984"> 
+    <titol>Tetris</titol> 
+    <tipus>Puzle</tipus> 
+    <unitats-venudes>170000000</unitats-venudes>  </videojoc> 
+    <videojoc any="2013"> 
+    <titol>Grand Theft Auto 5</titol> 
+    <tipus>Sandbox</tipus> 
+    <unitats-venudes>110000000</unitats-venudes>  </videojoc> 
+    <videojoc any="1985"> 
+    <titol>Super Mario Bros</titol> 
+    <tipus>Plataformes</tipus> 
+    <unitats-venudes>48000000</unitats-venudes>  </videojoc> 
+   </videojocs>
+   
+   

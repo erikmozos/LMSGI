@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<granja xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+  xs:noNamespaceSchemaLocation="ex7.xsd">
+  <!--Todos los atributos son obligatorios menos cantidad. 
+    Si la etiqueta <cerdo> tiene un atributo solo podrá haber una-->
+  <lloc>
+    <!--Mínimo una etiqueta productor-->
+    <productor id="prod1">Productor1</productor>
+    <productor id="prod2">Productor2</productor>
+    <animales> <!--Solo puede haber una etiqueta <animales>-->
+      <gato decompania="true">Un gato</gato> <!--Puede haber 1 o 2 gatos o 1 perro pero no ambos-->
+      <gato decompania="true">Otro gato</gato>
+      <!--O hay una sola etiqueta cerdo con atributo o hay varias etiquetas vacías sin atributo-->
+      <cerdo cantidad="5"/>      
+    </animales>    
+  </lloc>  
+  <lloc>
+    <productor id="prod3">Productor3</productor>
+    <animales>
+      <perro decompania="true">Un perro</perro>
+      <cerdo/>
+      <cerdo/>     
+    </animales>  
+  </lloc> 
+</granja>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+xs:noNamespaceSchemaLocation="biblioteca.xsd">
+  <libro isbn="978-3-16-148410-0">
+    <titulo idioma="es" edicion="primera">El señor de los anillos</titulo>
+    <autor>J.R.R. Tolkien</autor>
+    <publicacion>
+      <editorial nombre="Minotauro" ciudad="Barcelona"/>
+      <anio>1954</anio>
+    </publicacion>
+    <resumen>Una épica historia de fantasía que sigue las aventuras de Frodo Bolsón y su misión para destruir el Anillo Único.</resumen>
+    <comentarios>
+      <comentario usuario="lector1">¡Increíble libro! Me encantó la trama y los personajes.</comentario>
+      <comentario usuario="lector2">La descripción de los paisajes es asombrosa.</comentario>
+    </comentarios>
+  </libro>
+  
+  <libro isbn="978-0-06-112008-4">
+    <titulo idioma="es">Cien años de soledad</titulo>
+    <autor>Gabriel García Márquez</autor>
+    <publicacion>
+      <editorial nombre="Círculo de Lectores" ciudad="Bogotá"/>
+      <anio>1967</anio>
+    </publicacion>
+    <resumen>La historia mágica y realista de la familia Buendía en el ficticio pueblo de Macondo.</resumen>
+    <comentarios>
+      <comentario usuario="lector3">Me fascinó la forma en que está escrita, pura magia.</comentario>
+      <comentario usuario="lector4">La conexión entre los personajes es única.</comentario>
+    </comentarios>
+  </libro>
+
+  
+</biblioteca>

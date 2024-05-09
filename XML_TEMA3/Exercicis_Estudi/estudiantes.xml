@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE estudiantes SYSTEM "estudiantes.dtd">
+<estudiantes>
+    <estudiante id="1">
+        <nombre>María García</nombre>
+        <edad>22</edad>
+        <curso>Informática</curso>
+    </estudiante>
+    <estudiante id="2">
+        <nombre>Juan Rodríguez</nombre>
+        <edad>20</edad>
+        <curso>Matemáticas</curso>
+    </estudiante>
+</estudiantes>

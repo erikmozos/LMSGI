@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<inventari> 
+ <producte codi="AAA-111"> 
+ <nom>Teclat</nom> 
+ <pes unitat="g">480</pes> 
+ </producte> 
+ <producte codi="ACD-981"> 
+ <nom>Monitor</nom> 
+ <pes unitat="kg">1.8</pes> 
+ </producte> 
+ <producte codi="DEZ-138"> 
+ <nom>Ratolí</nom> 
+ <pes unitat="g">50</pes> 
+ </producte> 
+</inventari>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<llibres> 
+ <llibre id="1"> 
+ <titulo>Fundamentos de Sistemas de Bases de Datos</titulo>  <autor> 
+ <llinatges>ELMASRI,</llinatges> 
+ <nom>R.A.</nom> 
+ </autor> 
+ <autor> 
+ <llinatges>Gomez</llinatges> 
+ <nom>Pepe</nom> 
+ </autor> 
+ <editorial>Addison-Wesley</editorial> 
+ <any>2007</any> 
+ <preu>45.25</preu> 
+ </llibre> 
+ <llibre id="2"> 
+ <titulo>Introducción a los Sistemas de Bases de Datos  </titulo> 
+ <autor> 
+ <llinatges>DATE</llinatges> 
+ <nom>C.J.</nom> 
+ </autor> 
+ <editorial>Addison-Wesley</editorial> 
+ <any>2001</any> 
+ <preu>60.35</preu> 
+ </llibre>
+ <llibre id="3"> 
+ <titulo>Bases de Datos</titulo> 
+ <autor> 
+ <llinatges>Santos</llinatges> 
+ <nom>E.</nom> 
+ </autor> 
+ <autor> 
+ <llinatges>Garcia</llinatges> 
+ <nom>A.</nom> 
+ </autor> 
+ <autor> 
+ <llinatges>Alonso</llinatges> 
+ <nom>S.</nom> 
+ </autor> 
+ <autor> 
+ <llinatges>Alarcon</llinatges> 
+ <nom>P.</nom> 
+ </autor> 
+ <autor> 
+ <llinatges>Garbajosa</llinatges> 
+ <nom>J.</nom> 
+ </autor> 
+ <editorial>E.U. Informatica</editorial> 
+ <any>1998</any> 
+ <preu>20.00</preu> 
+ </llibre> 
+ <llibre id="4"> 
+ <titulo>Introducción a las Bases de Datos</titulo>  <autor> 
+ <llinatges>Pons</llinatges> 
+ <nom>O.</nom> 
+ </autor> 
+ <editorial>Thomson</editorial> 
+ <any>2005</any>  
+ <preu>100.25</preu> 
+ </llibre> 
+</llibres>

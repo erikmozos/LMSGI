@@ -1,0 +1,29 @@
+body{
+    background-color: #011936;
+    color: #D9FCE1;
+}
+
+.logoblanc {
+    width: 50px;
+    height: auto;
+    float: left;
+    margin-right: 160px;
+    vertical-align: middle;
+  }
+  
+  .navbar {
+    line-height: 50px; /* Alinea verticalmente los elementos de la barra de navegación */
+  }
+  
+  .navbar h1 {
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .navbar i {
+    float: right;
+    line-height: 50px;
+  }
+  
+  

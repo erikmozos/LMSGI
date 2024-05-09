@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<llistat> 
+ <compte> 
+ <titular dni="5671001D">Ramon Perez</titular>  <saldoactual moneda="euros">12000</saldoactual>  <datacreacio>13-abril-2012</datacreacio>  </compte> 
+ <fons> 
+ <compteassociat>20-A</compteassociat> 
+ <dades> 
+ <quantitatdipositada>2000</quantitatdipositada>  <moneda>Euros</moneda> 
+ </dades> 
+ </fons> 
+ <fons> 
+ <compteassociat>21-DX</compteassociat> 
+ <dades> 
+ <quantitatdipositada>4800</quantitatdipositada>  <moneda>Dòlars</moneda> 
+ </dades> 
+ </fons> 
+ <compte> 
+ <titular dni="39812341C">Carmen Diaz</titular>  <saldoactual moneda="euros">1900</saldoactual>  <datacreacio>15-febrer-2011</datacreacio>  </compte> 
+</llistat>

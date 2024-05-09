@@ -1,0 +1,7 @@
+<!ELEMENT empresa (empleado+)>
+<!ELEMENT empleado (nombre,edad,puesto,salario)>
+<!ATTLIST empleado id NMTOKEN #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT edad (#PCDATA)>
+<!ELEMENT puesto (#PCDATA)>
+<!ELEMENT salario (#PCDATA)>

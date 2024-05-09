@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<obres>
+  <obra pais="França" any="1876">
+    <titol>Bal au moulin de la Galette</titol>
+    <autor>Pierre-Auguste Renoir</autor>
+    <museu visible="true">Museu d'Orsay</museu>
+  </obra>
+  <obra pais="França" any="1879">
+    <titol>Pont du Maincy</titol>
+    <autor>Paul Cézanne</autor>
+    <museu visible="false">Museu d'Orsay</museu>
+  </obra>
+  <obra pais="Espanya" any="1822">
+    <titol>Amalia de Llano y Dotres, condesa de Vilches</titol>
+    <autor>Federico de Madrazo y Kuntz</autor>
+    <museu visible="true">Museu del Prado</museu>
+  </obra>
+  <obra pais="Espanya" any="1823">
+    <titol>Saturno devorando a su hijo</titol>
+    <autor>Francisco José de Goya y Lucientes</autor>
+    <museu visible="true">Museu del Prado</museu>
+  </obra>
+  <obra pais="Espanya" any="1635">
+    <titol>El príncipe Baltasar Carlos a caballo</titol>
+    <autor>Diego Rodríguez de Silva y Velázquez</autor>
+    <museu visible="false">Museu del Prado</museu>
+  </obra>
+  <obra pais="Països Baixos" any="1890">
+    <titol>Trigal con cuervos</titol>
+    <autor>Vincent Willem van Gogh</autor>
+    <museu visible="true">Museu van Gogh</museu>
+  </obra>
+</obres>

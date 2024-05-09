@@ -1,0 +1,9 @@
+<!ELEMENT concesionario (modelo+)>
+<!ELEMENT modelo (#PCDATA|motor| potencia|consumo_medio)*>
+<!ELEMENT motor (#PCDATA)>
+<!ELEMENT potencia (#PCDATA)>
+<!ELEMENT consumo_medio (#PCDATA | velocidad_km)*>
+<!ATTLIST modelo id ID #REQUIRED>
+<!ATTLIST modelo modelos_relacionados CDATA #IMPLIED>
+<!ATTLIST motor modelos_relacionados CDATA #IMPLIED>
+<!ATTLIST consumo_medio velocidad_km CDATA #IMPLIED>

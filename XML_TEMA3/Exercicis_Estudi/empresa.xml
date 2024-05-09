@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empresa xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+xs:noNamespaceSchemaLocation="empresa.xsd">
+    <empleado id="1">
+        <nombre>Juan Perez</nombre>
+        <edad>30</edad>
+        <puesto>Desarrollador</puesto>
+        <salario>50000</salario>
+    </empleado>
+    
+    <empleado id="2">
+        <nombre>Maria Rodriguez</nombre>
+        <edad>25</edad>
+        <puesto>Diseñador</puesto>
+        <salario>45000</salario>
+    </empleado>
+    
+    <empleado id="3">
+        <nombre>Carlos Gomez</nombre>
+        <edad>35</edad>
+        <puesto>Gerente de Proyecto</puesto>
+        <salario>60000</salario>
+    </empleado>
+</empresa>
