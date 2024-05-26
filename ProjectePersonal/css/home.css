@@ -1,90 +1,90 @@
-
 body {
     color: #D9FCE1;
-    font-family: 'Montserrat', sans-serif;
-}
-
-body > main > div.product-info > img {
-    width: 150px; 
-    border-radius: 10px;
-}
-
-.product-info {
+  }
+  
+  .product-info {
     text-align: center;
-    margin: 30px auto; 
+    margin: 30px auto;
     max-width: 600px;
-}
-
-.product-info h2 {
-    font-size: 20px; 
+  }
+  
+  .product-info h2 {
+    font-size: 20px;
     margin-bottom: 15px;
-}
-.product-info p {
-    font-size: 16px;    
-}
-
-.buy-button,
-.more-planes-button {
+  }
+  
+  .product-info p {
+    font-size: 16px;
+  }
+  
+  body > main > div.product-info > img {
+    width: 500px;
+    border-radius: 10px;
+  }
+  
+  .buy-button,
+  .more-planes-button {
     display: inline-block;
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 18px;
-    transition: background-color 0.3s;
-}
-
-.buy-button:hover,
-.more-planes-button:hover {
-    background-color: #0056b3;
-}
-
-.search-bar {
+        
+  }
+  
+  .search-bar {
     text-align: center;
-    margin-top: 30px; 
-}
-
-.search-input {
+    margin-top: 30px;
+  }
+  
+  .search-input {
     padding: 10px;
-    width: 250px; 
+    width: 250px;
     border-radius: 5px;
     border: 1px solid #ccc;
-    font-size: 14px;     
-}
-
-.fa-search {
-    font-size: 20px;    
-    margin-left: -25px;     
+    font-size: 14px;
+  }
+  
+  .fa-search {
+    font-size: 20px;
+    margin-left: -25px;
     position: relative;
     z-index: 1;
     color: #aaa;
-}
-
-.more-planes-button {
+  }
+  
+  .more-planes-button {
     background-color: #28a745;
     color: #fff;
     text-decoration: none;
-}
+  }
+  
+  .more-planes-button:hover {
+    opacity: 1;
+  }
 
-.more-planes-button:hover {
-    background-color: #218838;
-}
+  .buy-button {
+    background-color: #795025;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .buy-button:hover {
+    opacity: 1;
+  }
 
-
-.desktop-menu {
-    display: none;
-}
-
-.navbar i {
-    display: block;
-}
-
-@media only screen and (max-width: 768px) {
-    
-    .desktop-menu {
-        display: none !important;
+  @media only screen and (max-width: 1024px) {
+    /* Estilos para tablet */
+    body > main > div.product-info > img {
+      width: 70%; /* Porcentaje del ancho del contenedor */
+      max-width: 400px; /* Ancho máximo */
     }
-
-    .menu-icon {
-        display: block;
+  }
+  
+  @media only screen and (min-width: 1025px) {
+    body > main > div.product-info > img {
+      width: 80%; 
+      max-width: 500px;
     }
-}
-
+  }
+  
+  

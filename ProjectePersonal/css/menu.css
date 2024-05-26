@@ -1,63 +1,47 @@
 body {
-    font-family: 'Montserrat', sans-serif;
     background-color: #5A6650;
-    margin: 0;
-    padding: 0;
-}
-
-h1{
+  }
+  
+  h1 {
     text-align: center;
     color: rgb(69, 198, 149);
-}
-
-.navbar {
+  }
+  
+  .navbar {
     text-align: center;
-}
-
-.navbar nav ul {
+  }
+  
+  .navbar nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0 auto;
     width: fit-content;
-}
-
-.navbar nav ul li {
-    margin: 15px 0; 
-}
-
-.navbar nav ul li a {
+  }
+  
+  .navbar nav ul li {
+    margin: 15px 0;
+  }
+  
+  .navbar nav ul li a {
     color: #D9FCE1;
     text-decoration: none;
     font-size: 18px;
     font-weight: 400;
     display: block;
     text-align: center;
-}
-
-.navbar nav ul li a:hover {
+  }
+  
+  .navbar nav ul li a:hover {
     text-decoration: underline;
-}
-
-
-footer {
-    color: #ababab;
-    text-align: center;
+  }
+  
+  footer {
     padding-top: 700px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-footer p {
-    margin: 0;
-}
-
-.social-icons {
-    margin-top: 10px;
-}
-
-@media only screen and (max-width: 600px) {
+  }
+  
+  @media only screen and (max-width: 600px) {
     .navbar nav ul li {
-        margin: 10px 0; 
+      margin: 10px 0;
     }
-}
+  }
+  

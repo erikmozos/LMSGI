@@ -1,92 +1,22 @@
-body {
-    background-color: #011936;
-    color: #D9FCE1;
-    margin: 0;
-    padding-bottom: 70px; 
-    font-family: 'Montserrat', sans-serif;
-}
-
-.logoblanc {
-    width: 50px;
-    height: auto;
-    float: left;
-    margin-right: 20px;
-    vertical-align: middle;
-}
-
-header {
-    text-align: center;
-    padding: 10px 0; 
-}
-
-.navbar {
-    position: relative;
-    margin-top: 10px; 
-}
-
-.navbar h1 {
-    font-size: 24px;
-    margin: 0;
-    display: inline-block; 
-    vertical-align: middle;
-}
-
-.navbar nav {
-    display: block; 
-}
-
-.desktop-menu {
-    display: none;
-}
-
-.menu-icon {
-    display: none;
-}
-
-
-@media only screen and (max-width: 768px) {
-    .desktop-menu {
-        display: none; 
-    }
-
-    .menu-icon {
-        display: block; 
-        position: absolute;
-        top: 50%; 
-        right: 10px;
-        transform: translateY(-50%);
-        color: #fff;
-        font-size: 24px;
-    }
-
-    .navbar nav {
-        display: none;
-    }
-}
-
-main {
-    padding: 0 10px;
-}
-
 .product-container {
-    display: grid; 
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
-}
-
-.product {
+  }
+  
+  .product {
     background-color: #23395B;
     padding: 20px;
     border-radius: 10px;
     text-align: center;
-}
-
-.product img {
+  }
+  
+  .product img {
     max-width: 100%;
     border-radius: 5px;
-}
-
-.buy-button {
+  }
+  
+  .buy-button {
     display: block;
     margin-top: 10px;
     padding: 8px 15px;
@@ -94,22 +24,25 @@ main {
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
-}
-
-footer {
-    color: #ababab;
-    text-align: center;
-    padding: 20px 0;
-    background-color: #011936;
-}
-
-.social-icons {
-    margin-top: 10px;
-}
-
-.social-icons a {
-    color: #fff;
-    font-size: 24px;
-    margin: 0 10px;
-    text-decoration: none;
-}
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .desktop-menu {
+      display: none;
+    }
+  
+    .menu-icon {
+      display: block;
+      position: absolute;
+      top: 50%;
+      right: 10px;
+      transform: translateY(-50%);
+      color: #fff;
+      font-size: 24px;
+    }
+  
+    .navbar nav {
+      display: none;
+    }
+  }
+  
