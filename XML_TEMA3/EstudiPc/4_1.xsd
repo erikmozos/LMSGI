@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:complexType name="peri">
+    <xs:sequence>
+        <xs:element name="nom" type="xs:string"></xs:element>
+        <xs:element name="volumvendes" type="xs:integer" minOccurs="0"></xs:element>
+    </xs:sequence>
+    <xs:attribute name="cif" type="xs:string" use="required"/>
+</xs:complexType>
+
+    <xs:element name="llistafactures">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="factura" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="emissor" type="peri"/>
+                            <xs:element name="pagador" type="peri"/>
+                            <xs:element name="import" type="xs:decimal">
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="data" type="xs:date" use="optional"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
+
+
+
+
+
+
+<!-- <llistafactures>
+  <factura data="2024-02-19">
+    <emissor cif="123456789">
+      <nom>Empresa ABC</nom>
+      <volumvendes>100000</volumvendes>
+    </emissor>
+    <pagador cif="987654321">
+      <nom>Cliente XYZ</nom>
+      <volumvendes>80000</volumvendes>
+    </pagador>
+    <import>5000</import>
+  </factura>
+  <factura>
+    <emissor cif="789012345">
+      <nom>Otra Empresa</nom>
+    </emissor>
+    <pagador cif="543210987">
+      <nom>Otro Cliente</nom>
+    </pagador>
+    <import>8000</import>
+  </factura>
+</llistafactures>-->

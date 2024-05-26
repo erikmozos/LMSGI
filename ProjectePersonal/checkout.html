@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/checkout.css">
+    <title>Checkout - WarBird</title>
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img class="logoblanc" src="img/image (1).png" alt="WarBird Logo">
+        </a>
+        <h1>Checkout</h1>
+        <div class="navbar">
+            <nav class="desktop-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Productos</a></li>
+                    <li><a href="#">Contactar</a></li>
+                    <li><a href="carrito.html">Carrito</a></li>
+                </ul>
+            </nav>
+            <a href="menu.html" class="menu-icon"><i class="fa fa-bars" aria-hidden="true"></i></a>
+        </div>
+    </header>
+    <main>
+        <div class="checkout-container">
+            <h2>Información de Pago</h2>
+            <form action="confirmacio.html" method="POST" class="checkout-form">
+                <div class="form-group">
+                    <label for="name">Nombre Completo</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo Electrónico</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="address">Dirección</label>
+                    <input type="text" id="address" name="address" required>
+                </div>
+                <div class="form-group">
+                    <label for="card">Número de Tarjeta</label>
+                    <input type="text" id="card" name="card" required>
+                </div>
+                <div class="form-group">
+                    <label for="expiry">Fecha de Expiración</label>
+                    <input type="text" id="expiry" name="expiry" required>
+                </div>
+                <div class="form-group">
+                    <label for="cvv">CVV</label>
+                    <input type="text" id="cvv" name="cvv" required>
+                </div>
+                <a href="confirmacio.html" class="submit-button">Confirmar Pago</a>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>© 2024 WarBird. Todos los derechos reservados.</p>
+        <div class="social-icons">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+        </div>
+    </footer>
+</body>
+</html>

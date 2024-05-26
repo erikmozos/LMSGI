@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/carrito.css">
+    <title>Carrito de Compras - WarBird</title>
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img class="logoblanc" src="img/image (1).png" alt="WarBird Logo">
+        </a>
+        <h1>WARBIRD</h1>
+        <div class="navbar">
+            <nav class="desktop-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Productos</a></li>
+                    <li><a href="#">Contactar</a></li>
+                    <li><a href="carrito.html">Carrito <i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+                </ul>
+            </nav>
+            <a href="menu.html" class="menu-icon"><i class="fa fa-bars" aria-hidden="true"></i></a>
+        </div>
+    </header>
+    <main>
+        <div class="cart-container">
+            <h2>Tu Carrito</h2>
+            <table class="cart-table">
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Precio</th>
+                        <th>Cantidad</th>
+                        <th>Total</th>
+                        <th>Eliminar</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>FA-18 Hornet</td>
+                        <td>$190</td>
+                        <td><input type="number" value="1" min="1"></td>
+                        <td>$190</td>
+                        <td><a href="#" class="remove-item"><i class="fa fa-trash"></i></a></td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+            <div class="cart-total">
+                <h3>Total: $190</h3>
+                <a href="checkout.html" class="checkout-button">Proceder al Pago</a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>© 2024 WarBird. Todos los derechos reservados.</p>
+        <div class="social-icons">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
