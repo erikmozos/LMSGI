@@ -1,109 +1,87 @@
-body {
-    background-color: beige;
-    margin: 0;
-  }
+body{
+  margin: 0;
+  padding: 0;
+
+}
+
+header{
+  display: flex;
+  background-color: lightgreen;
+  justify-content: space-between;
+
+}
+
+.nav-text{
+  display: none;
+}
+
+
+.nav-icons{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-item i{
+  padding: 10px;
+}
+
+#search-bar-nav{
+  display: none;
+}
+
+aside{
+  padding: 10px;
+  background-color: lightgreen;
+  height: 50%;
   
-  header {
+}
+
+#search-bar-aside input{
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 4px ;
+}
+
+@media (min-width: 768px) {
+  
+  header{
+    display:flex;
+    flex-direction: column;
+  }
+
+  nav{
     display: flex;
-    background-color: lightcoral;
-    margin: 0;
-    padding: 0 10px;
-    height: 50px;
+    flex-direction: row;
     justify-content: space-between;
   }
-  
-  .logo {
+
+  #search-bar-nav{
     display: flex;
-    align-items: center;
-  }
-  
-  .logo img {
-    height: 30px;
-    width: auto;
-  }
-  
-  .nav-icons {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    width: 100%;
+    margin: 10px;
   }
 
-  #div-icons > div:nth-child(1){
-    visibility: hidden;
+  aside{
+    display: none;
   }
+
+  .logo{
+    text-align: center;
+  }
+
+  .nav-icons{
+    justify-content: flex-start;
+  }
+
+  i .fas fa-search-icon search-icon{
+    display: none;
+  }
+}
+
+/* Media query para PCs (mayor a 1024px) */
+@media (min-width: 1024px) {
   
-  .nav-item {
-    display: flex;
-    align-items: center;
-    margin-right: 30px;
-  }
   
-  .nav-item:hover {
-    color: #000;
-  }
-  
-  .nav-item .icon {
-    margin-right: 5px;
-    font-size: 18px;
-  }
-  
-  .search-bar {
-    display: flex;
-    align-items: center;
-    margin-right: 30px;
-  }
-  
-  .search-bar input {
-    height: 24px;
-    padding: 5px;
-    margin-left: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-
-  @media only screen
-and (min-width: 768px)
-and (max-width: 1024px)
-{
-    header{
-        flex-direction: column;
-    }
-
-    #div-icons {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: flex-start;
-        width: 20%;
-      }
-
-      #search-bar-nav > input[type=text]{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: flex-end;
-        width: 50%;
-      }
-      #search-bar-nav{
-        width: 20%;
-      }
-
-      .nav-icons span{
-        visibility: hidden;
-      }
-
-      .search-bar {
-        display: flex;
-        margin-right: 10px;
-        width: 50%;
-        justify-content: flex-end;
-      }
-
-      .logo {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
 
 }
